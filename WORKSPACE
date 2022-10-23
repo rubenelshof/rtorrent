@@ -2,12 +2,6 @@ workspace(name = "rtorrent")
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
--- http_archive(
---     name = "libtorrent",
---     sha256 = "57422c8bbf402bc0669b008f4ddaf1674cc7d5b4a9f6e5aa1e237b99eed840b4",
---     strip_prefix = "libtorrent-3a87f4acfcdd6c153dd4eaccca97870489b53885",
---     url = "https://github.com/jesec/libtorrent/archive/3a87f4acfcdd6c153dd4eaccca97870489b53885.zip",
--- )
 http_archive(
     name = "libtorrent",
     sha256 = "dd2d63a71cb77da800c9295cb185e25da1971eac7a58822ef6cd1af0559400e9",
